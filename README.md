@@ -82,7 +82,8 @@ Espace admin : http://localhost/reservation_billets/admin
 
 # USER 
 ### acceuil 
-<img width="560" alt="Capture d’écran 2024-12-04 135632" src="https://github.com/user-attachments/assets/3c11f101-dde7-42ff-b3ce-aa5d0b1e99da">
+<img width="920" alt="PageAcc" src="https://github.com/user-attachments/assets/e5b265ee-b23d-4bac-818a-8b624acc7741">
+
 
 ### reserver
 <img width="831" alt="Reserve" src="https://github.com/user-attachments/assets/9ab8755d-5d50-4ce0-9c8a-86d7e301640a">
