@@ -36,7 +36,7 @@ Autres : PDO pour les opérations sur la base de données
 ## 📋 Pré-requis
 PHP : Version ≥ 8.1
 MySQL : Version ≥ 5.7
-Serveur web (XAMPP ou Nginx)
+Serveur web (XAMPP )
 Navigateur web
 
 
@@ -44,7 +44,7 @@ Navigateur web
 
 1. Clone the repository
 
-- git clone https://github.com/AliTalebmoh/FoodApp
+- git clone https://github.com/khalil-de/Gestion-de-R-servation-de-Billets.git
 
 ### Importer la base de données :
 
@@ -61,6 +61,45 @@ Accédez à l'application :
 Espace client : http://localhost/reservation_billets
 Espace admin : http://localhost/reservation_billets/admin
 ## 📱 Screenshots
+# admin :
+### Admin dashboard
+<img width="932" alt="dashboardAdmin" src="https://github.com/user-attachments/assets/3faae3a0-7d58-4d7f-b808-f617b92f2ca5">
+
+### Connixion
+<img width="929" alt="connexion" src="https://github.com/user-attachments/assets/d65eb3eb-a38a-4aac-b77d-8d057300e5fe">
+
+### Inscripsion
+<img width="934" alt="inscription" src="https://github.com/user-attachments/assets/e3af8e38-d925-44e4-90f5-fcc4e8d3c8c9">
+
+### list des films
+<img width="931" alt="liste des films" src="https://github.com/user-attachments/assets/b7bfa047-7095-4871-881a-5eaca4159c57">
+
+### liste des salles
+<img width="929" alt="listSalle" src="https://github.com/user-attachments/assets/6a80b515-8abd-4dd8-99af-cfb94517f149">
+
+### liste des seances 
+<img width="931" alt="ListSeance" src="https://github.com/user-attachments/assets/8a9dccdd-928e-4828-8f1c-fcad0440c44a">
+
+# USER 
+### acceuil 
+<img width="560" alt="Capture d’écran 2024-12-04 135632" src="https://github.com/user-attachments/assets/3c11f101-dde7-42ff-b3ce-aa5d0b1e99da">
+
+### reserver
+<img width="831" alt="Reserve" src="https://github.com/user-attachments/assets/9ab8755d-5d50-4ce0-9c8a-86d7e301640a">
+
+### confermer 
+<img width="821" alt="confirmer" src="https://github.com/user-attachments/assets/b243b18f-0003-4d11-a755-6a268f03b40b">
+
+### historique  
+<img width="929" alt="Histork" src="https://github.com/user-attachments/assets/3c8105a4-cbd8-4b6b-9c89-89760cf321c4">
+
+### dashbord
+<img width="928" alt="dasborduser" src="https://github.com/user-attachments/assets/acd505a5-4ab2-4a21-a4df-4367e32bc7ac">
+
+### etat des salles
+<img width="929" alt="EtatSAll" src="https://github.com/user-attachments/assets/c09e4775-5322-45f8-a024-1ad3211723ea">
+
+
 
 
 
