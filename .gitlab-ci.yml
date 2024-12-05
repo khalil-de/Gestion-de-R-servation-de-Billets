@@ -1,0 +1,42 @@
+stages:
+  - initiation
+  - tests-unitaires
+  - qualite-du-code
+
+# Stage d'initiation
+initiation-job:
+  stage: initiation
+  script:
+    - echo "Initialisation du pipeline : démarrage des étapes..."
+
+# Stage des tests unitaires
+tests-unitaires-job:
+  stage: tests-unitaires
+  variables:
+    XDEBUG_MODE: "coverage"
+  artifacts:
+    when: always
+    reports:
+      junit: phpunit-execution-result.xml
+    paths:
+      - phpunit-execution-result.xml
+      - phpunit-coverage-result.xml
+  script:
+    - echo "Installation des dépendances avec Composer..."
+    - composer install
+    - echo "Exécution des tests unitaires avec PHPUnit..."
+    - vendor/bin/phpunit --coverage-clover=phpunit-coverage-result.xml --log-junit=phpunit-execution-result.xml
+
+# Stage d'analyse de la qualité du code
+qualite-du-code-job:
+  stage: qualite-du-code
+  variables:
+    GIT_CLEAN_FLAGS: none
+  script:
+    - echo "Analyse de la qualité du code avec SonarQube..."
+    - sonar-scanner \
+      -D"sonar.qualitygate.wait=true" \
+      -D"sonar.projectKey=Gestion-de-R-servation-de-Billets" \
+      -D"sonar.sources=." \
+      -D"sonar.host.url=http://localhost:9000" \
+      -D"sonar.login=sqp_748d1dd8c01171494d8d2935e6f0fb9e66cc42e2"
