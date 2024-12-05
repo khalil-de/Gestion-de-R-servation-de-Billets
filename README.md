@@ -99,12 +99,6 @@ Espace admin : http://localhost/reservation_billets/admin
 ### etat des salles
 <img width="929" alt="EtatSAll" src="https://github.com/user-attachments/assets/c09e4775-5322-45f8-a024-1ad3211723ea">
 
-
-
-
-
-
-
 ## 🔒 Fonctionnalités de Sécurité
 
 Sanitation des entrées utilisateur.
@@ -118,10 +112,10 @@ Gestion_Réservation_Billets/
 ├── admin/                  # Fichiers pour le panneau admin
 ├── components/             # Composants PHP réutilisables
 ├── includes/                # Fichiers de la connei
+├── user/                # Fichiers pour le panneau user
 ├── .gitlab-ci.yml           # config de gitlab
 ├── *.php                   # Fichiers principaux PHP
 └── db.sql      # Fichier de la base de données
-
 ```
 
 ## 💡 Explication des Fonctionnalités Clés
